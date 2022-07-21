@@ -6,17 +6,20 @@ const Card = ({ veri }) => {
     const handleClick = () => {
       setVisible(!visible);
     };
+    setTimeout(() => {
+      setVisible(true)
+    }, 2500);
   
         return (
           <div className='cardDiv' key={id}>
             {visible ? (
-              <div>
-                <img onClick={()=>handleClick()} src={image} alt='img' />
+              <div className='scenario1'>
+                <img onClick={() => handleClick()} src={image} alt='img' />
               </div>
             ) : (
-              <div className="cardDiv2">
+              <div className='cardDiv2'>
                 <div>
-                  <img onClick={()=>handleClick()} src={image} alt='img' />
+                  <img onClick={() => handleClick()} src={image} alt='img' />
                 </div>
                 <div className='nameDiv'>
                   <h2>{name}</h2>
@@ -25,6 +28,7 @@ const Card = ({ veri }) => {
                 </div>
               </div>
             )}
+            
           </div>
         );
       }
