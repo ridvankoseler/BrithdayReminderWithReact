@@ -1,3 +1,10 @@
-## Idea
+[Click here to see the  porject](https://brithday-reminder-with-react.vercel.app/)
+<br>
+👉 React <br>
+👉 React Hooks <br>
+👉 onClick Events <br>
+👉 Component <br>
+👉 Props <br>
+👉 Display Flex<br>
 
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+![](Animation4.gif)
