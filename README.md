@@ -1,3 +1,9 @@
-## Idea
-
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+[Click here to see the project]()
+<br>
+👉 React
+👉 React Hooks
+👉 onClick Events
+👉 Component
+👉 Props
+👉 Display Flex
+👉
